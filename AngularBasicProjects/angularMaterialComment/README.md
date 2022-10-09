@@ -1,3 +1,1 @@
-
-npm install 
-ng serve
+Start Project : ng-serve
