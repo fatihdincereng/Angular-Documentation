@@ -1,0 +1,9 @@
+<p>Parent component</p>
+<br>
+<input type="text" [(ngModel)]="channelName">
+<br>
+
+<button  (click)="toggleChild()" >Child Cagir</button>
+<app-childlifecycle  *ngIf="isChild"  [channelName]="channelName" >
+    <p>Üst Componentden p etiketi gönderdik</p>
+</app-childlifecycle>

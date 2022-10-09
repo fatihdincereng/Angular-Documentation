@@ -1,0 +1,26 @@
+<div>
+    <input type="text"  (keyup)="inputone($event)"  >
+</div>
+<div>
+    <input type="text"  (keyup)="inputtwo($event)" >
+</div>
+<div>
+    <button (click)="topla()" >Topla</button>
+</div>
+<div>
+    <input type="text"  [(ngModel)]="inputvalueone" >
+</div>
+<div>
+    <input type="text" [(ngModel)]="inputvaluetwo" >
+</div>
+<div>
+    <button (click)="ngmodeltopla()" >NGMODELTOPLA</button>
+</div>
+<div>
+    <input type="text" [placeholder]="inputvalueone" >
+</div>
+<h1>{{inputvalueone}}</h1>
+<h1>{{inputvaluetwo}}</h1>
+<h1>{{inputvaluethree}}</h1>
+
+

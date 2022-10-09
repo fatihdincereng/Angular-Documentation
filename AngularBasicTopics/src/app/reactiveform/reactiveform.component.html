@@ -1,0 +1,19 @@
+<form action=""  [formGroup]="userForm" (ngSubmit)="getLoginUser()" >
+    <div>
+        <label for="username">User Name</label>
+        <input type="text" name="UserName" formControlName="userName">
+        <span  *ngIf="userForm.get('userName')?.invalid" >
+            UserName Boş Olamaz
+        </span>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="Password" formControlName="password"  >
+        <span  *ngIf="userForm.get('password')?.invalid" >
+            Password Boş Olamaz
+        </span>
+    </div>
+    <div>
+        <input type="submit" value='Add'>
+    </div>
+</form>

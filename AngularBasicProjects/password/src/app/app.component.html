@@ -1,0 +1,37 @@
+<h1>Şifre Oluşturucu</h1>
+
+<div>
+   <!-- Bu input değerinin uzunluğunu bulup uzunluğunu şifre oluştururken kullanıcaz--> 
+  <label for="">Şifre Oluşturucu</label>
+  <input type="text"  (change)="sifreuzunlugual($any($event.target).value.length)" >
+</div>
+
+<div>
+  <label for="">Alfabeyi Kullan</label>
+  <input type="checkbox" (change)="alfabedegeridegistir()" >
+</div>
+
+<div>
+  <label for="">Sayiları Kullan</label>
+  <input type="checkbox"   (change)="sayidegeridegistir()" >
+</div>
+
+<div>
+  <label for="">Sembolleri Kullan</label>
+  <input type="checkbox" (change)="semboldegeridegistir()"  >
+</div>
+
+<h2 style="color: teal;" >{{password}}</h2>
+<h2 style="color: teal;" >{{getPassword()}}</h2>
+
+<div>
+  <button (click)="butonabas()" [disabled]="!length" >Şifre Oluştur</button>
+</div>
+<div  *ngIf="password" >
+  <label for="">Şifreniz</label>
+  <input   [value]="getPassword()">
+</div>
+
+<h1>{{length}}</h1>
+
+<h1>ındex Degeri: {{deneme}}</h1>

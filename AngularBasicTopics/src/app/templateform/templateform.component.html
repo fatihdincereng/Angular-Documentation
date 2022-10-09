@@ -1,0 +1,20 @@
+<form  #loginForm="ngForm" (ngSubmit)="getLoginUser(loginForm.value)" >
+    <div>
+        <label for="username">User Name</label>
+        <input name="UserName" #UserName="ngModel" required ngModel  type="text"  >
+        <div  *ngIf="UserName.touched" >
+            <span  *ngIf="UserName.errors"> Username Boş Olamaz</span>
+        </div>
+
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input name="Password" #Password="ngModel"  required ngModel  type="password">
+        <div  *ngIf="Password.touched" >
+            <span  *ngIf="Password.errors">Password Boş Olamaz</span>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value='Add'>
+    </div>
+</form>
