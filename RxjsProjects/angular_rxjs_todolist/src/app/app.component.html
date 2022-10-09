@@ -1,0 +1,6 @@
+<div class="app">
+    <p>Angular To-Do List Project</p>
+    <app-todoform></app-todoform>
+    <app-todolist [taskStatus]="false" [taskList]="filteredTaskList(false, taskList)"></app-todolist>
+    <app-todolist [taskStatus]="true" [taskList]="filteredTaskList(true, taskList)"></app-todolist>
+</div>

@@ -1,0 +1,31 @@
+<div>
+
+    <div *ngIf="taskList.length > 0">
+        <p *ngIf="taskStatus; else elseTaskTitle">
+            Tamamlanan Görevler
+        </p>
+        <ng-template #elseTaskTitle>
+            <p>Tamamlanmayan Görevler</p>
+        </ng-template>
+
+        <ul>
+            <li *ngFor="let task of taskList">
+                    <span *ngIf="task.isDone; else elseBlock">
+                        <input type="checkbox" (click)="handleCheck(task.id)" checked>
+                        <span>{{ task.description }}</span>
+                    </span>
+                    <ng-template #elseBlock>
+                        <input type="checkbox" (click)="handleCheck(task.id)">
+                        {{ task.description }}
+                    </ng-template>
+                <button type="button" (click)="handleRemove(task.id)">Sil</button>
+            </li>
+        </ul>
+
+        <span *ngIf="taskStatus">
+            <button type="button" (click)="handleRemoveCompleted()">Silme Başarılı</button>
+        </span>
+        
+    </div>
+    
+</div>

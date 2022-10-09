@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Fatih ",
+      "username": "Dinçer",
+      "email": "fatihdincereng@gmail.com",
+      "address": {
+        "street": "M. Sokak",
+        "suite": "M. APT",
+        "city": "Bursa",
+        "zipcode": "055524433233233",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "5555555555",
+      "website": "google.org",
+      "company": {
+        "name": "Codemine",
+        "catchPhrase": "ERP",
+        "bs": "MARKETS"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "title": "Card1",
+      "body": "Icerik1",
+      "imageId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "Card2",
+      "body": "Icerik2",
+      "imageId": 2,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Card3",
+      "body": "Icerik3",
+      "imageId": 3,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Card4",
+      "body": "Icerik4",
+      "imageId": 4,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "Card5",
+      "body": "Icerik5",
+      "imageId": 5,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "Card6",
+      "body": "Icerik6",
+      "imageId": 6,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "Card7",
+      "body": "Icerik7",
+      "imageId": 7,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "Card8",
+      "body": "Icerik8",
+      "imageId": 8,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "title": "Card9",
+      "body": "Icerik9",
+      "imageId": 9,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "title": "Card10",
+      "body": "Icerik10",
+      "imageId": 10,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "title": "Card11",
+      "body": "Icerik11",
+      "imageId": 11,
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "title": "Card12",
+      "body": "Icerik12",
+      "imageId": 12,
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "title": "Card13",
+      "body": "Icerik13",
+      "imageId": 13,
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "title": "Card14",
+      "body": "Icerik14",
+      "imageId": 12,
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "title": "Card15",
+      "body": "Icerik15",
+      "imageId": 15,
+      "userId": 1,
+      "id": 15
+    },
+    {
+      "title": "Card16",
+      "body": "Icerik16",
+      "imageId": 16,
+      "userId": 1,
+      "id": 16
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "id": 484,
+      "name": "Comment1",
+      "email": "fatih@net",
+      "body": "Body1",
+      "userId": 1
+    },
+    {
+      "postId": 2,
+      "id": 485,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 3,
+      "id": 486,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 4,
+      "id": 487,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 5,
+      "id": 488,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 6,
+      "id": 489,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 7,
+      "id": 490,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 8,
+      "id": 491,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 9,
+      "id": 492,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 10,
+      "id": 493,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 11,
+      "id": 494,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 12,
+      "id": 495,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 12,
+      "id": 496,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 14,
+      "id": 497,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 15,
+      "id": 498,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 16,
+      "id": 499,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    },
+    {
+      "postId": 17,
+      "id": 500,
+      "name": "Comment2",
+      "email": "fatih@net",
+      "body": "Body2",
+      "userId": 1
+    }
+  ]
+}

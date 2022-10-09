@@ -1,0 +1,2 @@
+// 1) nom install
+// 2) ng serve
