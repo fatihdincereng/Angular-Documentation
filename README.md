@@ -1,3 +1,8 @@
-# Angular-Documentation
+# Contents
 
-Angular simple projects, javascript and typescript basics, Rxjs related projects, software documentation with simple information about confusing topics in javascript
+- JavaScript and TypeScript Basics
+- Angular simple projects
+- Rxjs Simple projects
+- Angular Basic Topics
+- Angular Intermediate projects
+- Simple overview of javascript complex issues
